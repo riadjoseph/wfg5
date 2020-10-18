@@ -1,0 +1,39 @@
+body {
+    padding-bottom: 1.625rem;
+    background-color: #000;
+    color: #fff;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 55rem;
+    padding: 1.625rem;
+}
+
+section.demo {
+    border: 2px dashed #e6e6e6;
+    border-radius: .8125rem;
+    box-shadow: inset 0px 0px 1.625rem rgba(0, 0, 0, 0.05);
+    margin-top: 1.625rem;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #ffd31d;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 0;
+    font-size: .8rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 50px;
+    opacity: 0;
+    outline: 0;
+    margin-left: -60px;
+    -webkit-transition: margin .4s ease-in-out, opacity .6s ease-in-out, background-color .5s ease;
+    transition: margin .4s ease-in-out, opacity .6s ease-in-out, background-color .5s ease;
+}
+
+button:hover .footers:hover a:-webkit-any-link {
+    background-color: #d0a700;
+}

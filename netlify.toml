@@ -1,0 +1,17 @@
+# netlify.toml
+
+[[headers]]
+  # Set the default header to the one we want for documents
+  for = "/*"
+    [headers.values]
+    cache-control = "public,max-age=60"
+    Referrer-Policy = "no-referrer-when-downgrade"
+    Feature-Policy = "camera 'none'; geolocation 'none'; microphone 'none'"
+    Strict-Transport-Security = "max-age=2592000; includeSubDomains"
+    Accept-CH = "Downlink,RTT,Device-Memory,Save-Data,DPR,Width"
+    
+[[headers]]
+  # Override cache duration for assets with periods in the filename (i.e. static assets)
+  for = "/*.*"
+    [headers.values]
+    cache-control = "public,max-age=360000"
