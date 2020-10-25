@@ -70,7 +70,6 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
-    overflow-x: hidden;
 }
 
 header {
@@ -83,7 +82,6 @@ footer {
     background: #000000;
     height: 80px;
     text-align: center;
-    width: 100%;
 }
 
 .logo {
@@ -157,6 +155,7 @@ footer {
     .nav-item {
         width: 100%;
         height: 200px;
+        overflow: hidden;
     }
     .nav-item:hover {
         height: 350px;
@@ -168,6 +167,7 @@ footer {
     width: 100%;
     display: block;
     position: absolute;
+    overflow: hidden;
 }
 
 .nav-item:nth-child(1) .nav-item-bg {
@@ -220,6 +220,7 @@ footer {
     width: 100%;
     -webkit-filter: none;
     filter: none;
+    overflow: hidden;
 }
 
 .nav-item:hover .nav-item-content {
@@ -267,7 +268,7 @@ button:hover .footers:hover a:-webkit-any-link {
 }
 
 .service_price {
-    color: yellow;
+    color: #d0a700;
     font-weight: 400;
     font-size: 2rem;
 }
@@ -278,4 +279,19 @@ button:hover .footers:hover a:-webkit-any-link {
 
 .service_intro {
     line-height: 1.6rem;
+}
+
+aside {
+    width: 40%;
+    padding-left: .8rem;
+    margin-left: .8rem;
+    float: right;
+    box-shadow: inset 7px 0 5px -5px #d1a700;
+    font-style: italic;
+    color: #d1a700;
+}
+
+aside>p aside>a {
+    margin: .8rem;
+    color: hsl(48, 100%, 41%);
 }
