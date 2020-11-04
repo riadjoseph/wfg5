@@ -70,6 +70,8 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
+    width: auto!important;
+    overflow-x: hidden!important
 }
 
 header {
