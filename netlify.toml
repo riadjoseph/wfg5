@@ -18,5 +18,5 @@ cache-control = "public,max-age=640800"
 
 [[redirects]]
   from = "/*"
-  to = "/index.html#Error404"
+  to = "/404.html#Error404"
   status = 404

@@ -279,6 +279,7 @@ button:hover .footers:hover a:-webkit-any-link {
 
 .service_description {
     line-height: 1.6rem;
+    color: #2e2e2e !important;
 }
 
 .service_intro {
