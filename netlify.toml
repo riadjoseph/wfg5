@@ -26,8 +26,3 @@ package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
   buildDir = "."
-  changeFreq = "weekly"
-  exclude = [
-    # By Glob pattern
-    '**/**/googlef8ea5e715691d162.html','**/**/404.html'
-  ]
