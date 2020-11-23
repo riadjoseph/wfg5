@@ -70,9 +70,9 @@
     <aside>
         <h4>Nos Services</h4>
         <p><a href="formation-google-search-console.html">Coaching SEO</a></p>
-        <p><a href="accompagnement-et-creation-boutique-Shopify.html">Coaching E-Comm></a></p>
-        <p><a href="optimisation-vitesse.html">Optimisation : Vitesse & SEO technique</a></p>
-        <p><a href="contact.html">Création de Site</a></p>
+        <p><a href="accompagnement-et-creation-boutique-Shopify.html">Coaching Shopify</a></p>
+        <p><a href="optimisation-vitesse.html">Vitesse & SEO technique</a></p>
+        <p><a href="contact.html">Site Web et Application Mobile</a></p>
     </aside>
     <section class="demo" style="border: none !important;">
         <div>
@@ -93,30 +93,30 @@
 
 
         <div id="contact-webforgood">
-            <form name="contact" action="/merci.html" method="POST" data-netlify="true">
+            <form name="contact" action="/merci.html" method="POST" netlify-honeypot="bot-field" data-netlify="true">
                 <p>
                     <label for="name">Nom et prénom : </label>
                 </p>
-                <p><input style="width: 75%; height: 30px;" type="text" id="name" name="name" placeholder="ex. DUBOIS Jean" <span class="bar"></span>
+                <p><input required style="width: 75%; height: 30px;" type="text" id="name" name="name" placeholder="ex. DUBOIS Jean" <span class="bar"></span>
                 </p>
                 <p>
                     <label for="email">E-mail : </label></p>
                 <p>
-                    <input style="width: 75%; height: 30px;" type="email" id="email" name="email" placeholder="ex. riad@webforgood.fr" />
+                    <input required style="width: 75%; height: 30px;" type="email" id="email" name="email" placeholder="ex. riad@webforgood.fr" />
                 </p>
                 <p>
                     <label for="telephone">Tel : </label></p>
                 <p>
-                    <input style="width: 75%; height: 30px;" type="tel" id="telephone" name="telephone" placeholder="ex. 06 29 15 98 58" />
+                    <input required style="width: 75%; height: 30px;" type="tel" id="telephone" name="telephone" placeholder="ex. 06 29 15 98 58" />
                 </p>
                 <p>
                     <label for="message">Message :</label>
                 </p>
                 <p>
-                    <textarea style="width: 75%; height: 90px;" id="message" name="message" placeholder="ex. Mon URL est https://webforgood.fr, appelez-moi le jeudi matin à 10h ou Mercredi soir apres 21h. J'aimerai optimiser surtout mes pages de produits et collections. Merci, JD"></textarea>
+                    <textarea style="width: 75%; height: 90px;" id="message" name="message" placeholder="URL, RDV pour appel, et détails de la demande"></textarea>
                 </p>
                 <p>
-                    <button style="
+                    <button title="Envoyez" style="
 
                     color: black;
                     background-color: #ffd31d;

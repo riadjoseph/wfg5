@@ -28,7 +28,7 @@
     <link rel="preload" href="fonts/raleway-v18-latin-700.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/raleway-v18-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel='stylesheet' href='assets/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='assets/normalize.css/normalize.css' type='text/css' media='all' />
+    <!-- <link rel='stylesheet' href='assets/normalize.css/normalize.css' type='text/css' media='all' /> -->
     <link rel='stylesheet' href='assets/tooltip.css' type='text/css' media='screen' />
     <meta property="fb:app_id" content="1237119076454540">
     <meta property="og:url" content="https://webforgood.fr">
@@ -114,19 +114,19 @@
         <ul class="nav-list" style="padding-inline-start: 1px;">
             <li class="nav-item" style="background-color: black;">
                 <div class="nav-item-bg"></div>
-                <div class="nav-item-content">
-                    <span class="date">COACHING</span>
-                    <h2>SEO & <br>GOOGLE SEARCH CONSOLE</h2>
-                    <a href='formation-google-search-console.html'><button>DÉCOUVRIR</button></a>
+                <div class="nav-item-content" style="cursor: help;">
+                    <span class="date">COACHING SEO</span>
+                    <h2 data-tooltip="Un coaching complet pour gérer votre SEO comme un webmaster">GOOGLE<br> SEARCH CONSOLE</h2>
+                    <a href='formation-google-search-console.html' title="Coaching SEO avec la Google Search Console"><button type="button">DÉCOUVRIR</button></a>
                 </div>
             </li>
 
             <li class="nav-item" style="background-color: orangered;">
                 <div class="nav-item-bg"></div>
                 <div class="nav-item-content">
-                    <span class="date">COACHING</span>
-                    <h2>SITE<br>E-COMMERCE</h2>
-                    <a href='accompagnement-et-creation-boutique-Shopify.html'><button>LANCER</button></a>
+                    <span class="date">COACHING TECH</span>
+                    <h2>BOUTIQUE<br>SHOPIFY</h2>
+                    <a href='accompagnement-et-creation-boutique-Shopify.html' title="Accomapgnement avec mon site & Coaching Shopify"><button type="button">LANCER</button></a>
                     <p></p>
                 </div>
             </li>
@@ -135,17 +135,17 @@
                 <div class="nav-item-bg"></div>
                 <div class="nav-item-content">
                     <span class="date">DÉVELOPPEMENT</span>
-                    <h2>SITE<br>VITRINE</h2>
-                    <a href='contact.html'><button>DÉTAILS</button></a>
+                    <h2>SITE<br>ET APPLI</h2>
+                    <a href='contact.html' title="Contact a professional development team"><button type="button">DÉTAILS</button></a>
                 </div>
             </li>
 
             <li class="nav-item" style="background-color: #3b5998;">
                 <div class="nav-item-bg"></div>
                 <div class="nav-item-content">
-                    <span class="date">OPTIMISATION</span>
-                    <h2>VITESSE<br>ET TECH SEO</h2>
-                    <a href='contact.html'><button>PARLONS</button></a>
+                    <span class="date">CORRECTION</span>
+                    <h2>VITESSE<br>ET BUGS</h2>
+                    <a href='contact.html' title="Contact a site speed expert"><button type="button" type="button">PARLONS</button></a>
                 </div>
             </li>
         </ul>
@@ -154,18 +154,19 @@
 
     <footer style="display: block;list-style: none;">
         <ul class="footers" style="list-style: none;display: inline-flex; ">
-            <li data-tooltip="Mentions légales et conditions " class="footers " style="padding:15px; "><a href="privacy.html ">☕️ Confidentialité</a></li>
-            <li data-tooltip="S 'ouvre avec Facebook Messenger" class="footers" style="padding:15px;"><a href="https://m.me/WebForGoodFr" target="_blank" rel="noreferrer noopener">💬 FB Messenger</a></li>
-            <li data-tooltip="Contact Point" class="footers" style="padding:15px;"><a href="https://webforgood.fr/contact.html">📞 Contact</a></li>
+            <li data-tooltip="Mentions légales, Conditions " class="footers " style="padding:15px; "><a href="privacy.html " title="Mentions légales et conditions d'utilisations">☕️ Confidentialité</a></li>
+            <li data-tooltip="Facebook Messenger" class="footers" style="padding:15px;"><a href="https://m.me/WebForGoodFr" target="_blank" rel="noreferrer noopener">💬 FB Messenger</a></li>
+            <li data-tooltip="Formulaire" class="footers" style="padding:15px;"><a href="https://webforgood.fr/contact.html">📞 Contact</a></li>
         </ul>
     </footer>
     <footer style="display: block;list-style: none;">
         <ul class="footers" style="list-style: none;display: inline-flex; ">
-            <li data-tooltip="Coaching SEO " class="footers " style="padding:15px; "><a href="formation-google-search-console.html">Coaching SEO</a></li>
-            <li data-tooltip="Coaching Shopify" class="footers" style="padding:15px;"><a href="accompagnement-et-creation-boutique-Shopify.html">Coaching Shopify</a></li>
+            <li data-tooltip="Des Dizaines de clients satisfaits" class="footers " style="padding:15px; "><a href="temoignages.html" title="Clients SEO et Web Dev 100% satisfaits">Témoignages Clients</a></li>
+            <li data-tooltip="Coaching SEO " class="footers " style="padding:15px; "><a href="formation-google-search-console.html" title="Coaching SEO avec WebForGood.fr">Coaching SEO</a></li>
+            <li data-tooltip="Coaching Shopify" class="footers" style="padding:15px;"><a href="accompagnement-et-creation-boutique-Shopify.html" title="Coaching Shopify avec l'équipe WebForGood">Coaching Shopify</a></li>
         </ul>
     </footer>
-    <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+    <!-- <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script> -->
     <!-- <script async src="assets/defer.js" as="script"></script> -->
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PT4XMB4"

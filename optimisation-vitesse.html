@@ -85,6 +85,7 @@
         <p>Le contenu de la page est en cours de préparation. Mais le service lui est bel et bien actif, envoyez un message maintenant. Sans obligations, sans engagement.</p>
         <aside>
             <h4>Services SEO & Web</h4>
+            <p><a href="temoignages.html">Témoignages Clients</a></p>
             <p><a href="formation-google-search-console.html">SEO Coaching</a></p>
             <p><a href="accompagnement-et-creation-boutique-Shopify.html">Coaching Shopify</a></p>
         </aside>
@@ -95,25 +96,25 @@
         </picture>
 
         <div id="contact-webforgood">
-            <form name="contact" action="/merci.html" method="POST" data-netlify="true">
+            <form name="contact" action="/merci.html" method="POST" netlify-honeypot="bot-field" data-netlify="true">
                 <p>
                     <label for="name">Nom et prénom : </label>
                 </p>
-                <p> <input style="width: 75%; height: 30px;" type="text" id="name" name="name" placeholder="ex. DEGRYSE Riad" <span class="bar"></span>
+                <p> <input required style="width: 75%; height: 30px;" type="text" id="name" name="name" placeholder="ex. DEGRYSE Riad" <span class="bar"></span>
                 </p>
                 <p>
                     <label for="email">E-mail : </label></p>
-                <p><input style="width: 75%; height: 30px;" type="email" id="email" name="email" placeholder="ex. riad@webforgood.fr" />
+                <p><input required style="width: 75%; height: 30px;" type="email" id="email" name="email" placeholder="ex. riad@webforgood.fr" />
                 </p>
                 <p>
                     <label for="telephone">Tel : </label></p>
 
-                <p> <input style="width: 75%; height: 30px;" type="tel" id="telephone" name="telephone" placeholder="ex. 06 29 15 98 58" />
+                <p> <input required style="width: 75%; height: 30px;" type="tel" id="telephone" name="telephone" placeholder="ex. 06 29 15 98 58" />
                 </p>
                 <p>
                     <label for="message">Message :</label></p>
 
-                <p> <textarea style="width: 75%; height: 90px;" name="message" id="message" placeholder="ex. Mon URL est https://webforgood.fr, appelez-moi le jeudi matin à 10h ou Mercredi soir apres 21h. J'aimerai optimiser surtout mes pages de produits et collections. Merci, JD"></textarea>
+                <p> <textarea style="width: 75%; height: 90px;" name="message" id="message" placeholder="ex. Mon URL est https://webforgood.fr, appelez-moi le ... à 10h ou le ... soir. J'aimerai ... Merci, JD"></textarea>
                 </p>
                 <p>
                     <button style="
@@ -137,15 +138,17 @@
 
     <footer style="display: block;list-style: none;">
         <ul class="footers" style="list-style: none;display: inline-flex; ">
-            <li data-tooltip="Mentions légales et conditions " class="footers " style="padding:15px; "><a href="privacy.html ">☕️ Confidentialité</a></li>
-            <li data-tooltip="S 'ouvre avec Facebook Messenger" class="footers" style="padding:15px;"><a href="https://m.me/WebForGoodFr" target="_blank" rel="noreferrer noopener">💬 FB Messenger</a></li>
-            <li data-tooltip="Contact Point" class="footers" style="padding:15px;"><a href="https://webforgood.fr/contact.html">📞 Contact</a></li>
+            <li data-tooltip="Mentions légales, conditions " class="footers " style="padding:15px; "><a href="privacy.html ">☕️ Confidentialité</a></li>
+            <li data-tooltip="Facebook Messenger" class="footers" style="padding:15px;"><a href="https://m.me/WebForGoodFr" target="_blank" rel="noreferrer noopener">💬 FB Messenger</a></li>
+            <li data-tooltip="Formulaire" class="footers" style="padding:15px;"><a href="https://webforgood.fr/contact.html">📞 Contact</a></li>
         </ul>
     </footer>
     <footer style="display: block;list-style: none;">
         <ul class="footers" style="list-style: none;display: inline-flex; ">
             <li data-tooltip="Coaching SEO " class="footers " style="padding:15px; "><a href="formation-google-search-console.html">Coaching SEO</a></li>
             <li data-tooltip="Coaching Shopify" class="footers" style="padding:15px;"><a href="accompagnement-et-creation-boutique-Shopify.html">Coaching Shopify</a></li>
+            <li data-tooltip="Des Dizaines de clients satisfaits" class="footers " style="padding:15px; "><a href="temoignages.html">Témoignages Clients</a></li>
+
         </ul>
     </footer>
     <!-- Google Tag Manager (noscript) -->
