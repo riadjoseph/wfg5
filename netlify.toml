@@ -20,3 +20,14 @@ cache-control = "public,max-age=640800"
   from = "/*"
   to = "/404.html#Error404"
   status = 404
+
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  buildDir = "."
+  changeFreq = "weekly"
+  exclude = [
+    # By Glob pattern
+    '**/**/googlef8ea5e715691d162.html','**/**/404.html'
+  ]
