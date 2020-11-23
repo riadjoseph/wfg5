@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html oncontextmenu="return false" lang="fr" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
@@ -64,7 +64,7 @@
             <p style="line-height: 1.6rem;">Ce site utilise des applications tiers dont Facebook pixel tracking, Google analytics tracking, Cloudinary, HubSpot et Typeform, qui eux vont certainement laisser des tracking cookies sur votre navigateurs. Vous pouvez supprimer ces cookies
                 via votre navigateur, contactez-nous si vous trouvez des difficultés à le faire.</p>
 
-            <h2 class="tab-label collapsed">Services de Coaching, Conditions de Vente et Conditions d'Utilisation</h2>
+            <h2 class="tab-label collapsed">Services de Coaching, Conditions de Vente</h2>
             <p>Les services de coaching sont non-remboursables une fois le travail a commencé. Vu la nature personnalisable de chaque site et service, nous avons opté pour un paiement "hors ligne" c'est à dire après avoir mis en place le plan ensemble.</p>
             <p>Le client reste le <strong>responsable principal et final pour la bonne sauvegarde et mise à jour et le bon fonctionnement des documents, fichiers, codes, extensions, bases de données, mots de passe, mots d'utilisateur, images, photos, illustrations et tout autre document digital ou accès digital (comme mais pas que GSC, Analytics, Mailchimp, etc) </strong>.
                 Bien entendu nous sommes là pour assister mais <strong>nous ne serons pas tenus responsables en cas de malfonctionnement ou à cause d'une mauvaise utilisation, hors des normes de sécurité recommandées.</strong></p>
@@ -72,13 +72,22 @@
                 sommes là pour assister mais <strong>nous ne serons pas tenus responsables en cas de malfonctionnement ou à cause d'une mauvaise utilisation, hors des normes de sécurité recommandées.</strong></p>
             <p>Tout travail fait sera mis à disposition du client<strong>et devient sa propriété</strong>. Ne laissez jamais le droit de propriété de votre site et son contenu et code à une tiers personne.</p>
         </div>
+        <div class="tabs-container">
+            <h2 class="tab-label">Conditions d'Utilisation</h2>
+            <p style="line-height: 1.6rem;">Il est permis de faire des liens entrants vers ce site uniquement dans le cadre où ils ne nuisent pas au site, au code du site, au classement du site et surtout n'affecte pas l'expérience utilisateur sur et hors de ce site.</p>
+            <p style="line-height: 1.6rem;">Il vous sera probablement permis de copier et reprendre le contenu en format text, images et vidéo uniquement sur demande et après une réponse claire de notre pasrt et une permission explicite de la part de WebForGood <strong> à condition de </strong>faire
+                un lien "follow" et mentionner le site sous l'ancre "WebForGood Consultants SEO France". Dans le doute, ne copiez pas le contenu. Le code du site est ouvert et en libre utilisation si jamais cela vous interesse et il appartient aux auteurs
+                respectifs dans le domaine open source mis en llibre service et libre de droit, ou à Netlify où ce site est hébergé et dans ce cas merci de voir avec eux directement.</p>
+
+
+        </div>
         <h2>Contact</h2>
         <p>Questions, clarifications, demandes?</p>
         <p> <a href="https://m.me/WebForGoodFr" target="_blank" rel="noreferer, noopener" crossorigin style="color: yellow;"> Envoyez un message via Facebook Messenger.</a>
         </p>
         <p>Ou utilisez le formulaire ci-dessous, merci :) </p>
         <div id="contact-webforgood">
-            <form name="contact" action="/index.html" method="POST" data-netlify="true">
+            <form name="contact" action="/index.html" netlify-honeypot="bot-field" method="POST" data-netlify="true">
                 <p>
                     <label>Nom et prénom: </label>
                 </p>
@@ -109,7 +118,7 @@
                     cursor: pointer;
                     border-radius: 50px;
                     opacity: 1;
-                    " type="submit">Envoyez</button>
+                    " type="submit" title="Envoyez votre message">Envoyez</button>
                 </p>
             </form>
         </div>
@@ -124,6 +133,7 @@
     </footer>
     <footer style="display: block;list-style: none;">
         <ul class="footers" style="list-style: none;display: inline-flex; ">
+            <li data-tooltip="Des dizaines de clients satisfaits" class="footers " style="padding:15px; "><a href="temoignages.html">Témoignages Clients</a></li>
             <li data-tooltip="Coaching SEO " class="footers " style="padding:15px; "><a href="formation-google-search-console.html">Coaching SEO</a></li>
             <li data-tooltip="Coaching Shopify" class="footers" style="padding:15px;"><a href="accompagnement-et-creation-boutique-Shopify.html">Coaching Shopify</a></li>
         </ul>
