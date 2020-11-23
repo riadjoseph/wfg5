@@ -25,5 +25,5 @@ cache-control = "public,max-age=640800"
 package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
-  buildDir = "."
+  buildDir = ""
   prettyURLs = false
