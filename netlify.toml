@@ -23,8 +23,6 @@ cache-control = "public,max-age=640800"
 
 [[plugins]]
 package = "@netlify/plugin-sitemap"
-[plugins.inputs]
-  buildDir = "public"
 
 [[plugins]]
   package = "netlify-plugin-submit-sitemap"
