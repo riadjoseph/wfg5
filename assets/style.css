@@ -298,3 +298,7 @@ aside>p aside>a {
     margin: .8rem;
     color: hsl(48, 100%, 41%);
 }
+
+.choose-language {
+    z-index: 11;
+}
