@@ -20,3 +20,23 @@ cache-control = "public,max-age=640800"
   from = "/*"
   to = "/404.html#Error404"
   status = 404
+
+[[redirects]]
+  from = "/fr/"
+  to = "/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/start.html"
+  to = "/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/get-your-website.html"
+  to = "/contact.html"
+  status = 301
+
+[[redirects]]
+  from = "/en/web-seo-marketing.html"
+  to = "/formation-google-search-console.html"
+  status = 301
