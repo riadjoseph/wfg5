@@ -17,11 +17,6 @@ for = "/*"
 cache-control = "public,max-age=640800"
 
 [[redirects]]
-  from = "/*"
-  to = "/404.html#Error404"
-  status = 404
-
-[[redirects]]
   from = "/fr/"
   to = "/index.html"
   status = 301
@@ -40,3 +35,8 @@ cache-control = "public,max-age=640800"
   from = "/en/web-seo-marketing.html"
   to = "/formation-google-search-console.html"
   status = 301
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html#Error404"
+  status = 404
