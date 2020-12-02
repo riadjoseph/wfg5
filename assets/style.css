@@ -114,7 +114,7 @@ footer {
     font-family: 'Shadows Into Light', cursive;
     font-size: larger;
     /*position: absolute;*/
-    color: #e9bc00;
+    color: #e9bc00 !important;
     text-decoration: none;
     bottom: auto;
     left: 80%;
