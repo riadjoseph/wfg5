@@ -20,6 +20,11 @@ cache-control = "public,max-age=640800"
   from = "/fr/"
   to = "/index.html"
   status = 301
+  
+  [[redirects]]
+  from = "/consultant-seo.html"
+  to = "/formation-google-search-console.html"
+  status = 301
 
 [[redirects]]
   from = "/start.html"
