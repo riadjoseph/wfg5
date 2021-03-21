@@ -111,6 +111,7 @@ footer {
     color: #e9bc00;
     bottom: auto;
     left: 60%;
+    letter-spacing: -1px;
 }
 
 .footers a:-webkit-any-link {

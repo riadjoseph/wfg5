@@ -106,16 +106,19 @@ footer {
 }
 
 .legends {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Helvetica',
+    cursive;
     font-size: larger;
     position: absolute;
     color: blue;
     bottom: auto;
     left: 60%;
+    letter-spacing: -1px;
 }
 
 .footers a:-webkit-any-link {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Helvetica',
+    cursive;
     font-size: larger;
     /*position: absolute;*/
     color: blue;
