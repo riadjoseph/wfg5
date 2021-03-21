@@ -50,21 +50,22 @@
 
 
 /* shadows-into-light-regular - latin */
-
+/*
 @font-face {
     font-family: 'Shadows Into Light';
     font-style: normal;
     font-weight: 400;
     src: url('../fonts/shadows-into-light-v10-latin-regular.eot');
-    /* IE9 Compat Modes */
-    src: local('Shadows Into Light'), local('ShadowsIntoLight'), url('../fonts/shadows-into-light-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/shadows-into-light-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/shadows-into-light-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/shadows-into-light-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/shadows-into-light-v10-latin-regular.svg#ShadowsIntoLight') format('svg');
-    /* Legacy iOS */
-}
+src: local('Shadows Into Light'),
+local('ShadowsIntoLight'),
+url('../fonts/shadows-into-light-v10-latin-regular.eot?#iefix') format('embedded-opentype'),
 
+url('../fonts/shadows-into-light-v10-latin-regular.woff2') format('woff2'),
+url('../fonts/shadows-into-light-v10-latin-regular.woff') format('woff'),
+url('../fonts/shadows-into-light-v10-latin-regular.ttf') format('truetype'),
+    url('../fonts/shadows-into-light-v10-latin-regular.svg#ShadowsIntoLight') format('svg');
+}
+*/
 body {
     background: #000000;
     font-family: 'Raleway', sans-serif;
@@ -93,7 +94,8 @@ footer {
 }
 
 .logo {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Helvetica',
+    cursive;
     font-size: larger;
     position: inherit;
     color: #e9bc00;
@@ -102,7 +104,8 @@ footer {
 }
 
 .legends {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Helvetica',
+    cursive;
     font-size: larger;
     position: absolute;
     color: #e9bc00;
@@ -111,7 +114,8 @@ footer {
 }
 
 .footers a:-webkit-any-link {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Helvetica',
+    cursive;
     font-size: larger;
     /*position: absolute;*/
     color: #e9bc00 !important;
