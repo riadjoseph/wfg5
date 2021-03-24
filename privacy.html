@@ -87,38 +87,39 @@
         </p>
         <p>Ou utilisez le formulaire ci-dessous, merci :) </p>
         <div id="contact-webforgood">
-            <form name="contact" action="/index.html" netlify-honeypot="bot-field" method="POST" data-netlify="true">
+            <form name="contact" action="/merci.html" method="POST" netlify-honeypot="bot-field" data-netlify="true">
                 <p>
-                    <label>Nom et prénom: </label>
+                    <span class="material-icons">person</span><label for="name"> Nom, prénom </label>
                 </p>
-                <p><input style="width: 75%; height: 30px;" type="text" name="name" <span class="bar"></span>
+                <p><input required style="width: 75%; height: 40px;border-radius: 5px;" type="text" id="name" name="name" placeholder="ex. DUBOIS Jean" <span class="bar"></span></p>
+                <p>
+                    <span class="material-icons">email</span><label for="email"> E-mail </label></p>
+                <p>
+                    <input required style="width: 75%; height: 40px;border-radius: 5px;" type="email" id="email" name="email" placeholder="ex. riad@webforgood.fr" />
+                    </p>
+                <p>
+                    <span class="material-icons">phone</span><label for="telephone"> Tel </label></p>
+                <p>
+                    <input required style="width: 75%; height: 40px;border-radius: 5px;" type="tel" id="telephone" name="telephone" placeholder="ex. 06 29 15 98 58" />
+                    </p>
+                <p>
+                    <span class="material-icons">comment</span> <label for="message"> Message</label>
                 </p>
                 <p>
-                    <label>E-mail: </label></p>
+                    <textarea required style="width: 75%; height: 90px;border-radius: 5px;" id="message" name="message" placeholder="URL, best time to call & details"></textarea>
+                    </p>
                 <p>
-                    <input style="width: 75%; height: 30px;" type="email" name="email" />
-                </p>
-
-                <p>
-                    <label>Message:</label>
-                </p>
-                <p>
-                    <textarea style="width: 75%; height: 90px;" name="message"></textarea>
-                </p>
-                <p>
-                    <button style="
+                    <button title="Send" style="
 
                     color: black;
                     background-color: #ffd31d;
-
-
                     border: 0;
                     font-size: .8rem;
                     text-transform: uppercase;
                     cursor: pointer;
                     border-radius: 50px;
                     opacity: 1;
-                    " type="submit" title="Envoyez votre message">Envoyez</button>
+                    " type="submit">Envoyez</button>
                 </p>
             </form>
         </div>
