@@ -312,3 +312,10 @@ p {
 h3 {
     font-size: 1.3em;
 }
+li {
+    font-size: 18px;
+}
+
+question {
+    font-size: 18px;
+}
