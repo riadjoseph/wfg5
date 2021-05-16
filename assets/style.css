@@ -277,6 +277,7 @@ button:hover .footers:hover a:-webkit-any-link {
     color: #d0a700;
     font-weight: 400;
     font-size: 2rem;
+    padding: 1rem;
 }
 
 .service_description {
